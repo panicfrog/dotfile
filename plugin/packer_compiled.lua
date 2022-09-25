@@ -134,10 +134,20 @@ _G.packer_plugins = {
     path = "/Users/yyp/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
   },
+  ["go.vim"] = {
+    loaded = true,
+    path = "/Users/yyp/.local/share/nvim/site/pack/packer/start/go.vim",
+    url = "https://github.com/ray-x/go.vim"
+  },
   ["gruvbox.nvim"] = {
     loaded = true,
     path = "/Users/yyp/.local/share/nvim/site/pack/packer/start/gruvbox.nvim",
     url = "https://github.com/ellisonleao/gruvbox.nvim"
+  },
+  ["guihua.lua"] = {
+    loaded = true,
+    path = "/Users/yyp/.local/share/nvim/site/pack/packer/start/guihua.lua",
+    url = "https://github.com/ray-x/guihua.lua"
   },
   ["indent-blankline.nvim"] = {
     loaded = true,

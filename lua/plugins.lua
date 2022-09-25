@@ -141,6 +141,14 @@ packer.startup({
 		use("rcarriga/nvim-dap-ui")
 		-- use("Pocco81/DAPInstall.nvim")
 		-- use("jbyuki/one-small-step-for-vimkind")
+		----------------------------------------------
+		-- go
+
+		use({
+			"ray-x/go.vim",
+			requires = { "ray-x/guihua.lua" },
+		})
+		----------------------------------------------
 
 		use("j-hui/fidget.nvim")
 		if paccker_bootstrap then
