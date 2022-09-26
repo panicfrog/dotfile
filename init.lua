@@ -26,7 +26,6 @@ require("plugin-config.fidget")
 require("lsp.setup")
 require("lsp.cmp")
 require("lsp.ui")
-require("lsp.goconfig")
 -- 格式化
 -- require("lsp.formatter")
 require("lsp.null-ls")
